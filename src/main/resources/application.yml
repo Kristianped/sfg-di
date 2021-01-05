@@ -1,0 +1,15 @@
+kristian:
+  jms:
+    username: JMS username from yaml
+    password: somepass123
+    url: SomeUrl.com
+---
+spring:
+  config:
+    activate:
+      on-profile: de
+kristian:
+  jms:
+    username: JMS username from yaml GERMAN
+    password: somepass123
+    url: SomeUrl.com
